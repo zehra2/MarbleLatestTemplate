@@ -587,6 +587,19 @@ pre code {
     margin-left: auto
 }
 
+.container1 {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow: hidden;
+}
+
+.container1 {
+    width: 100%;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
 @media (min-width:576px) {
     .container {
         max-width: 540px
@@ -9234,8 +9247,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }

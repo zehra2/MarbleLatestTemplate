@@ -191,7 +191,6 @@ img {
 
 .icon-classy-nav-down-arrow {
     font-family: 'classyfonts';
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -205,8 +204,7 @@ img {
     content: "\e900";
 }
 
-.classynav ul li.megamenu-item>a:after,
-.classynav ul li.has-down>a:after {
+.classynav ul li.megamenu-item>a:after {
     font-family: 'classyfonts';
     content: "\e900";
     font-size: 12px;
